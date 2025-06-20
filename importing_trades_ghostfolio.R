@@ -70,4 +70,5 @@ convert_json_to_ghostfolio_csv <- function(input_folder, output_csv_path) {
 
 # Example usage:
 convert_json_to_ghostfolio_csv(getwd(), "all_trades_import.csv")
+#when importing trades, make sure the right portfolio (if >1) is filtered
 
