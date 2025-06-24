@@ -1,4 +1,6 @@
 setwd("C:/Users/Damian/Downloads")
+source(exchange_rate.R)
+source(read_alpaca_trades.R)
 
 rates <- read_exchange_rate("2025622231143550189016DNVALD83558967928.csv")
 trades <- read_alpaca_trades(getwd())
