@@ -10,5 +10,3 @@ read_alpaca_trades <- function(json_path){
   select(1,3:5,8:11)
   return(trades)
 }
-
-trades <- read_alpaca_trades(getwd())
