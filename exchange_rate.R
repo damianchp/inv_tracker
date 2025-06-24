@@ -23,7 +23,3 @@ read_exchange_rate <- function(path) {
   
   return(result)
 }
-
-
-
-rates <- read_exchange_rate("2025622231143550189016DNVALD83558967928.csv")
